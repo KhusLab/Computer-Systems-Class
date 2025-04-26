@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dane/Desktop/E201/RPN/rpn_calculator'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initStack, symObjAddr: 0x0, symBinAddr: 0x1000037B4, symSize: 0x1C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _initStack, symObjAddr: 0x0, symBinAddr: 0x1000037B4, symSize: 0x1C }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x1C, symBinAddr: 0x1000037D0, symSize: 0x24 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x40, symBinAddr: 0x1000037F4, symSize: 0x68 }
+  - { offsetInCU: 0xBF, offset: 0xBF, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0xA8, symBinAddr: 0x10000385C, symSize: 0x74 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x11C, symBinAddr: 0x1000038D0, symSize: 0x20 }
+  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _sub, symObjAddr: 0x13C, symBinAddr: 0x1000038F0, symSize: 0x20 }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _divs, symObjAddr: 0x15C, symBinAddr: 0x100003910, symSize: 0x64 }
+  - { offsetInCU: 0x189, offset: 0x189, size: 0x8, addend: 0x0, symName: _mul, symObjAddr: 0x1C0, symBinAddr: 0x100003974, symSize: 0x20 }
+  - { offsetInCU: 0x1BF, offset: 0x1BF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1E0, symBinAddr: 0x100003994, symSize: 0x4D8 }
+...
